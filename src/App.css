@@ -1,0 +1,9 @@
+.App {
+  font-family: Roboto, sans-serif;
+}
+
+.title {
+  font-weight: 700;
+  text-align: center;
+  color: rgb(119, 116, 116);
+}

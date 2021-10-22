@@ -1,0 +1,46 @@
+.list {
+  list-style: 0;
+  padding: 0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 20px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid rgba(2, 129, 2, 0.3);
+  border-left: 10px solid green;
+  box-shadow: 2px -2px 5px 0 rgba(4, 80, 10, 0.1),
+    -2px -2px 5px 0 rgba(4, 80, 10, 0.1), 2px 2px 5px 0 rgba(4, 80, 10, 0.1),
+    -2px 2px 5px 0 rgba(4, 80, 10, 0.1);
+}
+.btn {
+  background-color: transparent;
+  border: 2px solid green;
+
+  font-weight: 600;
+  border-radius: 7px;
+  color: green;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: green;
+    color: white;
+  }
+}
+
+.filterLabel {
+  justify-content: center;
+}
+
+.filterInput {
+  margin-left: 15px;
+}
